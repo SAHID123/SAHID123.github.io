@@ -3,10 +3,15 @@ h1,h2,h3,h4,h5,h6,figure,p{
     padding: 0;
 }
 
+body {
+    background-image: url(../images/link.jpg);
+    width: 100%;
+        
+}
 .container {
     width: 920px;
     margin: 0 auto;
-    background-image: url(../images/pika.jpg);
+    
 }
 
 #Encabezado {
@@ -81,6 +86,7 @@ h1,h2,h3,h4,h5,h6,figure,p{
 .info-personaje {
     padding: 20px 0px;
     text-align: justify;
+    
 
 }
 .cuerpo-nota-info {
@@ -214,14 +220,14 @@ background: url('../images/sociales/redes.jpg') -290px -60px;
 }  
 .politicas {
   text-align: center;
-   border-top: 3px double red;
-   border-bottom: 3px double red;
+   border-top: 3px double green;
+   border-bottom: 3px double green;
    padding: 5px 0; 
    color: black;
 }
 .politicas abbr{
     cursor: help;
-    border-bottom: 1px dotted lightgray;
+    border-bottom: 1px dotted red;
 }
 
 #logo-sems {
@@ -240,7 +246,7 @@ background: url('../images/sociales/redes.jpg') -290px -60px;
 
 #logo-sems::before , #logo-sems::after {
     content: "";
-    border-top: 3px double yellow;
+    border-top: 3px double green;
     position: absolute;
     height: 3px;
     width: 340px;
@@ -254,7 +260,7 @@ background: url('../images/sociales/redes.jpg') -290px -60px;
 }
 #direccion {
    text-align: center;
-    color: darkgray;
+    color: black;
     font-size: 0.8em;
 }
 
